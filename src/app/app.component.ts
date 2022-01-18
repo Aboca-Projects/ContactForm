@@ -5,7 +5,6 @@ import {HttpClient, HttpHeaders} from '@angular/common/http';
 const httpOptions = {
   headers: new HttpHeaders({
     'Content-Type':  'application/json',
-    Authorization: 'Basic ' + btoa('zendesk@aboca.it/token:94HmF62Ek3mvvdXk6r8LytWJVVWM0PsaeBNXZkNR'),
     'Access-Control-Allow-Origin': 'http://localhost:4200'
   })
 };
